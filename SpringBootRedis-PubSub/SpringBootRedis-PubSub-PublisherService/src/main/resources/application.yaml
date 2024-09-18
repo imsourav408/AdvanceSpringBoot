@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SpringBootRedis-PubSub-PublisherService
+#Redis config details
+  data:
+    redis:
+      host: localhost
+      port: 6379
+#Springboot application server port
+server:
+  port: 9090
