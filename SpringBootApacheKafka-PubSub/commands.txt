@@ -4,6 +4,6 @@
 #Make sure you have java installed and java home must be set
 # Start the ZooKeeper service using below command
 $ bin/zookeeper-server-start.sh config/zookeeper.properties
-#Open another terminal session in same location and tart the Kafka broker service
+#Open another terminal session in same location and start the Kafka broker service
 $ bin/kafka-server-start.sh config/server.properties
 #Now all sets do coding in springboot and enjoy kafka...
