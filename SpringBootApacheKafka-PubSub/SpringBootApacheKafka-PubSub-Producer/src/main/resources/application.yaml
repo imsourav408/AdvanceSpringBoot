@@ -1,0 +1,13 @@
+#Spring application Name
+spring:
+  application:
+    name: SpringBootApacheKafka-PubSub-Producer
+#Kafka producer configurations
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#Spring boot Server port number
+server:
+  port: 9090

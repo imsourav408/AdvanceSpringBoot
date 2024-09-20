@@ -1,0 +1,9 @@
+#First Download the kafa zip file using the below link
+#https://dlcdn.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz
+#Unzip the zip tgz file and open terminal in kafka_2.13-3.8.0 location
+#Make sure you have java installed and java home must be set
+# Start the ZooKeeper service using below command
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+#Open another terminal session in same location and tart the Kafka broker service
+$ bin/kafka-server-start.sh config/server.properties
+#Now all sets do coding in springboot and enjoy kafka...

@@ -1,0 +1,19 @@
+#Spring application Name
+spring:
+  application:
+    name: SpringBootApacheKafka-PubSub-Consumer
+#Kafka producer configurations
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: group-1
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      auto-offset-reset: earliest
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "com.oracle.model"
+server:
+  port: 9080
