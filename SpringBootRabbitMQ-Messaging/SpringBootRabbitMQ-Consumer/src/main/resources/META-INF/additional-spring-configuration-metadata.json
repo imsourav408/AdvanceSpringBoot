@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "rabbitmq.wish.queue.name",
+    "type": "java.lang.String",
+    "description": "A description for 'rabbitmq.wish.queue.name'"
+  },
+  {
+    "name": "rabbitmq.score.queue.name",
+    "type": "java.lang.String",
+    "description": "A description for 'rabbitmq.score.queue.name'"
+  }
+]}

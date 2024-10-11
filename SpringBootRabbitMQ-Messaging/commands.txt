@@ -1,0 +1,7 @@
+#Pull the rabbitmq docker image using below command
+$ docker pull rabbitmq:3.10.5-management
+#Run the docker image using the below command
+$ docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.10.5-management
+#Then open the browser and type "localhost:15672" it will show you the rabbitmq login page
+#Then login using the username as "guest" and password also as "guest"
+#All done. Let's code in springboot
