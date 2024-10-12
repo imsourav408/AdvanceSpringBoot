@@ -1,0 +1,7 @@
+#Pull the activemq docker image using below command
+$ docker pull rmohr/activemq
+#Run the docker image using the below command
+$ docker run -it --name activemq -p 61616:61616 -p 8161:8161 rmohr/activemq
+#Then open the browser and type "http://localhost:8161/" it will show you the activemq login page
+#Then login using the username as "admin" and password also as "admin"
+#All done. Let's code in springboot
